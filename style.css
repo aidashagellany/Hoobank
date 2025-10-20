@@ -1,0 +1,245 @@
+body {
+    background: #000003;
+    background: linear-gradient(47deg, rgba(0, 0, 3, 1) 2%, rgba(5, 5, 87, 1) 68%, rgba(0, 2, 3, 1) 96%);
+
+    body {
+        font-family: "Poppins", sans-serif;
+        background-color: #00040f;
+        color: #fff;
+        line-height: 1.6;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-weight: 600;
+        letter-spacing: -0.02em;
+    }
+
+    h1 span {
+        background: linear-gradient(90deg, #33bbcf 0%, #00ffca 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    p {
+        font-weight: 700;
+        color: #9ca3af;
+    }
+
+}
+
+section {
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+h1,
+h2,
+h5 {
+    color: #fff;
+}
+
+.text-secondary {
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.mounth {
+    background: radial-gradient(circle, rgba(200, 200, 200, 0.3), rgba(100, 100, 100, 0.7));
+}
+
+.Genertion,
+.gradient {
+    background: #2cc7db;
+    background: linear-gradient(90deg, rgba(44, 199, 219, 1) 0%, rgba(61, 61, 186, 1) 56%, rgba(0, 212, 255, 0.88) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.btn-info {
+    background: #2cc7db;
+    background: linear-gradient(90deg, rgba(44, 199, 219, 1) 0%, rgba(61, 61, 186, 1) 56%, rgba(0, 212, 255, 0.88) 100%);
+    border: none;
+    padding: 5px;
+    color: #000;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-info:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.features,
+.business,
+.billing,
+.carddeal {
+    background: #000003;
+    background: linear-gradient(47deg, rgba(0, 0, 3, 1) 2%, rgba(5, 5, 87, 1) 68%, rgba(0, 2, 3, 1) 96%);
+}
+
+section+section {
+    margin-top: 0;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.benefits {
+
+    .box1,
+    .box2,
+    .box3 {
+        transition: 0.4s;
+
+
+    }
+
+
+}
+
+.box1:hover {
+    background: radial-gradient(circle, rgba(200, 200, 200, 0.3), rgba(100, 100, 100, 0.7));
+}
+
+.box2:hover {
+    background: radial-gradient(circle, rgba(200, 200, 200, 0.3), rgba(100, 100, 100, 0.7));
+}
+
+.box3:hover:hover {
+    background: radial-gradient(circle, rgba(200, 200, 200, 0.3), rgba(100, 100, 100, 0.7));
+}
+
+.cta {
+
+
+    background: radial-gradient(circle, rgba(200, 200, 200, 0.3), rgba(100, 100, 100, 0.7));
+
+}
+
+.imgbilling {
+    width: 600px;
+    height: auto;
+}
+
+
+
+.benefits {
+    background: #000003;
+    background: linear-gradient(47deg, rgba(0, 0, 3, 1) 2%, rgba(5, 5, 87, 1) 68%, rgba(0, 2, 3, 1) 96%);
+}
+
+.cta {
+    display: block;
+}
+
+@media(min-width:992px) {
+    .cta.come {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+}
+
+.stats {
+    background: #000003;
+    background: linear-gradient(47deg, rgba(0, 0, 3, 1) 2%, rgba(5, 5, 87, 1) 68%, rgba(0, 2, 3, 1) 96%);
+}
+
+.features {
+    background: #000003;
+    background: linear-gradient(47deg, rgba(0, 0, 3, 1) 2%, rgba(5, 5, 87, 1) 68%, rgba(0, 2, 3, 1) 96%);
+}
+
+.billing {
+    background: #000003;
+    background: linear-gradient(47deg, rgba(0, 0, 3, 1) 2%, rgba(5, 5, 87, 1) 68%, rgba(0, 2, 3, 1) 96%);
+}
+
+.carddeal {
+
+    background: #000003;
+    background: linear-gradient(47deg, rgba(0, 0, 3, 1) 2%, rgba(5, 5, 87, 1) 68%, rgba(0, 2, 3, 1) 96%);
+}
+
+.iconn {
+    background: #2cc7db;
+    background: linear-gradient(90deg, rgba(44, 199, 219, 1) 0%, rgba(61, 61, 186, 1) 56%, rgba(0, 212, 255, 0.88) 100%);
+    -webkit-background-clip: text;
+}
+
+
+.testimonial-box {
+    background-color: #1c1c1e;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+}
+
+.testimonial-box:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.1));
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
+}
+
+
+
+
+.logoend img {
+    width: 400px;
+    gap: 20px;
+    max-width: 120px;
+    opacity: 0.8;
+    transition: 0.3s;
+    justify-content: space-around;
+
+}
+
+.logoend img:hover {
+    opacity: 1;
+
+    transform: scale(1.05);
+}
+
+.footer {
+    background: #000003;
+    background: linear-gradient(47deg, rgba(0, 0, 3, 1) 2%, rgba(5, 5, 87, 1) 68%, rgba(0, 2, 3, 1) 96%);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer a {
+    color: #AAAAAA;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: #00F5A0;
+}
+
+.footer h5 {
+    color: #fff;
+}
+
+.footer .social-icon {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+.footer .social-icon:hover {
+    transform: scale(1.2);
+}
